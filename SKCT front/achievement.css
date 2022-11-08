@@ -1,0 +1,173 @@
+*
+{
+    margin: 0px;
+}
+#logo{
+    height: 90px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#logo:hover{
+    cursor: pointer;
+}
+.hero{
+    background-image: url("ACHIEVEMENTS\ -\ csE.png");
+    background-size: cover;
+    height: 53vh;
+}
+#soc{
+    height: 30px;
+    width: 30px;
+}
+#twitter{
+    height:36px;
+    width: 36px;
+}
+#yt{
+    height:31px;
+    width: 37px;
+}
+#socio{
+    display: flex;
+    float: right;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+#socio li{
+    list-style: none;
+    padding: 0 10px;
+    margin-top: -50px;
+    position: relative;
+}
+
+#socio li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.4s ease;
+}
+#bim
+{
+    height: 55vh;
+}
+.slide{
+    padding: 40px 110px;
+}
+.slide h5,p{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+}
+.slide p{
+    font-family:cursive;
+    font-size: 14px;
+}
+.slide h5{
+    font-weight: 700;
+}
+.slide img{
+    border-radius: 10px;
+    border-style: solid;
+}
+button{
+    color: aliceblue;
+}
+.slide #head{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.report{
+    padding: 1cm;
+    background-color: rgb(244, 250, 255);
+}
+.report #rpt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2cm 5cm;
+}
+
+.report #head{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+#rpt p{
+    background-color: rgb(244, 250, 255);
+    font-size: medium;
+}
+.report #rpt1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0cm 5cm;
+}
+
+#rpt1 p{
+    background-color: aliceblue;
+    font-size: medium;
+}
+.hub #down button{
+    color: rgb(255, 255, 255);
+    padding: 0.30cm 0.5cm;
+    border-radius: 0.7cm;
+    background-color: #343434;
+    /* font-size: 25px;
+    display: flex;
+    justify-content: center; */
+}
+.hub #down{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    padding: 2cm;
+}
+.hub #year button{
+    color: rgb(255, 255, 255);
+    padding: 0.25cm 0.5cm;
+    border-radius: 0.7cm;
+    background-color: #343434;
+    /* font-size: 25px;
+    display: flex;
+    justify-content: center; */
+}
+.hub #year button:hover{
+    background-color:rgb(18, 18, 121);
+}
+.hub #year{
+    font-size: 20px;
+    display:flex;
+    justify-content: space-around;
+    padding-bottom: 2cm;
+}
+.hub #year a,#down a{
+    color: white;
+    text-decoration: none;
+}
+#rpt h2{
+    color: rgb(18, 18, 121);
+}
+#rpt1 h2{
+    color: rgb(103, 103, 169);
+}
+#rpt p{
+    font-size: 19px;
+    color: rgb(18, 18, 121);
+}
+#rpt1 p{
+    font-size: 19px;
+    color:rgb(18, 18, 121);
+}
+#detail{
+    text-align: center;
+}
+#detail h5{
+    padding: 0.5cm;
+}
+#logs{
+    height: 7cm;
+    width: 7cm;
+}

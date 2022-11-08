@@ -1,0 +1,128 @@
+*
+{
+    margin: 0px;
+}
+#logo{
+    height: 90px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#logo:hover{
+    cursor: pointer;
+}
+.hero{
+    background-image: url("Untitled\ design\ \(19\).png");
+    background-size: cover;
+    height: 53vh;
+}
+#soc{
+    height: 30px;
+    width: 30px;
+}
+#twitter{
+    height:36px;
+    width: 36px;
+}
+#yt{
+    height:31px;
+    width: 37px;
+}
+#socio{
+    display: flex;
+    float: right;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+#socio li{
+    list-style: none;
+    padding: 0 10px;
+    margin-top: -50px;
+    position: relative;
+}
+
+#socio li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.4s ease;
+}
+#bim
+{
+    height: 55vh;
+}
+.slide{
+    padding: 40px 110px;
+}
+.slide h5,p{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+}
+.slide p{
+    font-family:cursive;
+    font-size: 14px;
+}
+.slide h5{
+    font-weight: 700;
+}
+.slide img{
+    border-radius: 10px;
+    border-style: solid;
+}
+button{
+    color: aliceblue;
+}
+.slide #head{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+#accredition{
+    position: relative;
+
+}
+#dim{
+    height:90px;
+    width: 90px;
+}
+.data{
+    background-color: whitesmoke;
+}
+.data h5{
+    font-size: 45px;
+    color: rgb(45, 45, 149);
+}
+.data #head{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.data #accredition{
+    padding-top: 2.5cm;
+    padding-bottom: 1cm;
+    padding-left: 4cm;
+    padding-right: 4cm;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+}
+.data #accredition2{
+    padding-top: 3cm;
+    padding-bottom: 3cm;
+    padding-right: 9cm;
+    padding-left: 9cm;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+}
+.data h4:hover{
+    color: rgb(47, 255, 186);
+    cursor: pointer;
+    
+}
